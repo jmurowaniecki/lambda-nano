@@ -1,0 +1,24 @@
+{
+    "name": "php-developer/lambda-nano",
+    "description": "Simple & lightweight PHP 8 framework.",
+    "type": "library",
+    "license": "CC-BY-4.0",
+    "authors": [
+        {
+            "name": "John Murowaniecki",
+            "email": "john@compilou.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "CORE\\": "src/"
+        },
+        "psr-4": {
+            "CORE\\": "src/"
+        },
+        "classmap": [ "src/*" ]
+    }
+}
