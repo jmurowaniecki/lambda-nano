@@ -60,7 +60,7 @@ class λ
         $x = $this;
         $k = $x->r[$x->q] ?? false;
         $f = $k?[ call_user_func_array($k, $this->a),0]:[$x->q,1];
-        \WEB\λ::print($f[0],$f[1]);
+        \CORE\λ::print($f[0],$f[1]);
     }
 
     /**
