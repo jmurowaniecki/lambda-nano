@@ -89,7 +89,7 @@ class λ
         '404 Page not found']
     )
     {
-        header("HTTP/1.1 $c {$d[$c]}");
-        echo (!$c ? $m:"{$d[$c]}: $m");
+        header("HTTP/1.1 {$d[$c]}");
+        echo !$c ? $m : "{$d[$c]}: $m";
     }
 }
