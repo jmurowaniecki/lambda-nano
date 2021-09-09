@@ -19,6 +19,6 @@
         "psr-4": {
             "CORE\\": "src/"
         },
-        "classmap": [ "src/*" ]
+        "classmap": [ "src/bootstrap.php" ]
     }
 }
