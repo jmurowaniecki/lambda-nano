@@ -15,6 +15,11 @@ Realize a inclusão do arquivo `./src/bootstrap.php` em seu arquivo php contendo
 
 ## Exemplo de utilização
 
+Instale as dependências em seu projeto utilizando o composer via:
+```
+composer require php-developer/lambda-nano
+```
+
 O exemplo abaixo cria um serviço que retorna as rotas `/` e `/sum`, onde a rota `/sum` pode realizar somas entre N elementos conforme exemplo `/sum/1/2/3/4/5` retorna o JSON com o valor 15.
 
 ```php
