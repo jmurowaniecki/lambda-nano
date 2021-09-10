@@ -90,6 +90,6 @@ class λ
     )
     {
         header("HTTP/1.1 {$d[$c]}");
-        echo !$c ? $m : "{$d[$c]}: $m";
+        die($m);
     }
 }
